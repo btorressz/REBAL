@@ -58,3 +58,15 @@ This Program was developed in Solana Playground IDE and will be exported for vsc
    - Optional lamport reimbursements from a funded fee vault.
 
 ---
+
+## 🧪 **Testing (Solana Playground)**
+
+The test file:
+- Initializes a SPL token mint
+- Derives program PDAs
+- Airdrops SOL to the fee vault
+- Calls `initializeBasket`
+- Fetches & asserts correct basket config
+
+
+
