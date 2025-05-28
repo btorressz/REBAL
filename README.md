@@ -44,3 +44,17 @@ This Program was developed in Solana Playground IDE and will be exported for vsc
 - **Typescript test file**: Built-in test setup using Solana Playground's built-in globals.
 
 ---
+
+## 🚀 **How It Works**
+
+1. **Admin initializes a basket** with config (name, description, eligible assets, thresholds).
+2. **Users stake $REBAL** and vote on proposals for:
+   - Strategy type
+   - Rebalance threshold
+   - Eligible token list
+3. **Bots monitor baskets**, rebalance them based on config, then call `executeRebalance`.
+4. **Bots are rewarded** with:
+   - `$REBAL` tokens (via PDA mint)
+   - Optional lamport reimbursements from a funded fee vault.
+
+---
