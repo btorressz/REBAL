@@ -80,3 +80,8 @@ The test file:
 - `execute_rebalance(...)`: Called by rebalancer bots to claim rewards after execution.
 
 ---
+
+## 📜 **License**
+MIT License — Use freely with attribution.
+
+---
