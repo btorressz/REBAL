@@ -70,3 +70,13 @@ The test file:
 
 
 ---
+
+## 🧾 **Program Instructions**
+
+- `initialize_basket(...)`: Initializes a new basket.
+- `propose_threshold(...)`, `vote_threshold(...)`, `finalize_threshold(...)`
+- `propose_strategy(...)`, `vote_strategy(...)`, `finalize_strategy(...)`
+- `propose_assets(...)`, `vote_assets(...)`, `finalize_assets(...)`
+- `execute_rebalance(...)`: Called by rebalancer bots to claim rewards after execution.
+
+---
